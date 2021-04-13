@@ -17,15 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JVSPlayerSDK"
   spec.version      = "1.0.0"
-  spec.summary      = "JVSPlayerSDK"
+  spec.summary      = "JVSPlayerSDK是济南中维世纪科技有限公司旗下中维（软件）开发的基于公有云服务的一个视屏播放SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "1.0.0"
 
   spec.homepage     = "https://github.com/Jovision-SDK/JVSPlayerSDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -68,9 +67,6 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "10.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +75,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Jovision-SDK/JVSPlayerSDK.git", :tag => "#{v1.0.0}" }
+  spec.source       = { :git => "https://github.com/Jovision-SDK/JVSPlayerSDK.git", :tag => "v1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +86,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "JVSPlayerSDK.framework/Headers/*JVSPlayerSDK.h"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
