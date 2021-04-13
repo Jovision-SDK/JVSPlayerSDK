@@ -86,7 +86,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "JVSPlayerSDK.framework/Headers/*JVSPlayerSDK.h"
+  spec.source_files  = "JVSPlayerSDK.framework/**"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
