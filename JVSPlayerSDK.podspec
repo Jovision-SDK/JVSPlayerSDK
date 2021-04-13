@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "JVSPlayerSDK.podspec"
+  spec.name         = "JVSPlayerSDK"
   spec.version      = "1.0.0"
   spec.summary      = "JVSPlayerSDK"
 
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/JVSPlayerSDK.podspec"
+  spec.homepage     = "https://github.com/Jovision-SDK/JVSPlayerSDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Jovision-SDK/JVSPlayerSDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Jovision-SDK/JVSPlayerSDK.git", :tag => "#{v1.0.0}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
