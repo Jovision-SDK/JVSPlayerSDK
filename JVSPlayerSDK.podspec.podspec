@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JVSPlayerSDK.podspec"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of JVSPlayerSDK.podspec."
+  spec.summary      = "JVSPlayerSDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/JVSPlayerSDK.podspec.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Jovision-SDK/JVSPlayerSDK.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
