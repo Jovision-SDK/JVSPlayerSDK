@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JVSOpenSDK"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "云视通开放平台SDK"
   spec.description  = "云视通开放平台SDK,开发者可以用SDK开发APP"
   spec.homepage     = "https://github.com/Jovision-SDK/JVSPlayerSDK"
   spec.license      = { :type => "MIT", :file => "LICENSE" } 
   spec.author       = { "zhangxiaodong" => "zhangxiaodong@jovision.com" }
-  spec.platform     = :ios, "10.0"  
+  spec.platform     = :ios, "8.0"  
   spec.source       = { :git => "https://github.com/Jovision-SDK/JVSPlayerSDK.git", :tag => spec.version.to_s }
   spec.frameworks   = 'CFNetwork',  'AudioToolbox', 'AVFoundation','OpenGLES','ExternalAccessory','MediaPlayer'
   spec.libraries    = "c","c++"
