@@ -1,6 +1,0 @@
-framework module JDE05 {
-  umbrella header "JDE05.h"
-
-  export *
-  module * { export * }
-}
