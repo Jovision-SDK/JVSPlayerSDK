@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "JVSPlayerSDK"
-  spec.version      = "v1.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "云视通开放平台SDK"
   spec.description  = "云视通开放平台SDK,开发者可以用SDK开发APP"
   spec.homepage     = "https://github.com/Jovision-SDK/JVSPlayerSDK"
