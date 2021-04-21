@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/Jovision-SDK/JVSPlayerSDK.git", :tag => spec.version.to_s }
   spec.frameworks   = 'CFNetwork',  'AudioToolbox', 'AVFoundation','OpenGLES','ExternalAccessory','MediaPlayer'
   spec.libraries    = "c","c++"
-  spec.vendored_frameworks = {'JDE05.framework','JVSPlayerSDK.framework'}
+  spec.vendored_frameworks = 'JDE05.framework','JVSPlayerSDK.framework'
   spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC','-all_load']}
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
